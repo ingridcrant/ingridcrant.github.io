@@ -45,10 +45,10 @@
     if(button) {
     button.parentElement.setAttribute('data-interactive', '');
     button.removeAttribute('hidden');
-    button.addEventListener('click', evt => {
-        evt.preventDefault();
+    // button.addEventListener('click', evt => {
+    //     evt.preventDefault();
 
-        alert('Oh hi there 👋');
-    });
+    //     alert('Oh hi there 👋');
+    // });
     }
 })(jQuery); // End of use strict
