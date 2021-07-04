@@ -40,15 +40,12 @@
         target: "#sideNav",
     });
 
-    const button = document.querySelector('.breakout-button');
+    const buttonList = document.querySelectorAll('.breakout-button');
 
-    if(button) {
-    button.parentElement.setAttribute('data-interactive', '');
-    button.removeAttribute('hidden');
-    // button.addEventListener('click', evt => {
-    //     evt.preventDefault();
-
-    //     alert('Oh hi there 👋');
-    // });
+    for (let i = 0; i < buttonList.length; i++) {
+        if(buttonList[i]) {
+            buttonList[i].parentElement.setAttribute('data-interactive', '');
+            buttonList[i].removeAttribute('hidden');
+        }
     }
 })(jQuery); // End of use strict

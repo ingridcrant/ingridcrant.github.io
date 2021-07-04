@@ -38,7 +38,7 @@
                         Ingrid
                         <span class="text-primary">Crant</span>
                     </h1>
-                    <p class="lead mb-5">I am a student at Vincent Massey Secondary School.</p>
+                    <p class="lead mb-5">I am an incoming Computer Science Student at the University of Waterloo.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/ingridcrant/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/ingridcrant"><i class="fab fa-github"></i></a>
@@ -52,19 +52,30 @@
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
-                    <article class="box">
-                        <img src="images/Sorterlogo.png" alt="iSorter logo" style="width:321px;height:140px;">
-                        <h2>iSorter</h2>
-                        <p>A web app that sorts the user's Apple Music Library by genre, artist, or release year.</p>
-                        <button class="breakout-button" type="button" hidden onClick="goToiSorter()">Go to Project</button>
-                    </article>
+                    <div class="rowalign">
+                        <article class="box">
+                            <img src="images/Sorterlogo.png" alt="iSorter logo" style="width:321px;height:140px;">
+                            <h2>iSorter</h2>
+                            <p>A web app that sorts the user's Apple Music Library by genre, artist, or release year.</p>
+                            <button class="breakout-button" type="button" hidden onClick="goToiSorter()">Go to Project</button>
+                        </article>
+                        <article class="box">
+                            <img src="images/NoFluffRecipelogo.png" alt="No Fluff Recipe logo" style="width:140px;height:140px;">
+                            <h2>No Fluff Recipe</h2>
+                            <p>A chrome extension that simplifies a complex recipe website to only its recipe card.</p>
+                            <button class="breakout-button" type="button" hidden onClick="goToNoFluffRecipe()">Go to Project</button>
+                        </article>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
         </div>
         <script>
             function goToiSorter() {
-              location.replace("https://isorter.herokuapp.com/")
+                location.replace("https://isorter.herokuapp.com/")
+            }
+            function goToNoFluffRecipe() {
+                location.replace("https://chrome.google.com/webstore/detail/no-fluff-recipe/kjpknolonkdolcdobjpnpbhddcnfpbhh?hl=en")
             }
         </script>
         <!-- Bootstrap core JS-->
