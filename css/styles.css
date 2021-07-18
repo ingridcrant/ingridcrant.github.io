@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #8e3094;
+  color: #b232bb;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #6a246f;
+  color: #eddeee;
   text-decoration: underline;
 }
 
@@ -2400,6 +2400,7 @@ textarea.form-control {
   padding: 2rem;
   max-width: 30rem;
   background: #252525;
+  border-radius: 5px;
   position: relative;
   box-shadow: none;
   transition: transform 300ms ease-in-out, box-shadow 400ms ease, background 100ms ease;
