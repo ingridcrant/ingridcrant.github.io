@@ -2398,7 +2398,7 @@ textarea.form-control {
 .box {
   color: #fff;
   padding: 2rem;
-  max-width: 30rem;
+  max-width: 26rem;
   background: #252525;
   border-radius: 5px;
   position: relative;
@@ -10123,8 +10123,8 @@ section.resume-section .resume-section-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+  align-items: left;
+  justify-content: start;
   gap: 20px;
 }
 
