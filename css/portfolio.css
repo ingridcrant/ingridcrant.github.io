@@ -1,0 +1,50 @@
+/* Frame 4700 */
+
+
+/* Auto layout */
+
+.root {
+    padding-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 32px 112px 112px; */
+
+    position: center;
+
+    /* Greys/00 */
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    /* fonts */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.me {
+    width: 260px;
+    height: 260px;
+}
+
+.activity {
+    width: 150px;
+    height: 150px;
+    margin-top: 110px;
+}
