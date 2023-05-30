@@ -20,12 +20,17 @@
     border-radius: 32px;
 
     /* fonts */
-    font-family: 'Be Vietnam Pro';
+    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
     /* or 141% */
+
+    column-gap: 1.5rem;
+    row-gap: 0;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .photos {
@@ -47,4 +52,37 @@ img {
     width: 150px;
     height: 150px;
     margin-top: 110px;
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+.paragraphs {
+    text-align: left;
+    max-width: 700px;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+
+.highlight {
+    background: linear-gradient(120deg,#e9e1d7,#e9e1d7);
+    background-position: 0 60%;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+
+.right-align {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #484848;
+}
+
+.right-align:hover {
+    color: black;
 }

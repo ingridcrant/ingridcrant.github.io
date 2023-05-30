@@ -12,7 +12,7 @@
         <!-- Google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet">
         <!-- CSS file -->
         <link rel="stylesheet" href="css/portfolio.css">
     </head>
@@ -23,53 +23,19 @@
                 <img src="images/me.jpg" class="me" alt="picture of me">
                 <img src="images/newyork.jpg" class="activity" alt="new york skyline">
             </div>
-            <h2> Hi, I'm Ingrid! </h2>
-            <p class="lead mb-5">I'm a Computer Science student at UWaterloo.</p>
-            <div class="social-icons">
-                <a class="social-icon" href="https://www.linkedin.com/in/ingridcrant/"><i class="fab fa-linkedin-in"></i></a>
-                <a class="social-icon" href="https://github.com/ingridcrant"><i class="fab fa-github"></i></a>
-            </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="rowalign">
-                        <article class="box">
-                            <img src="images/Sorterlogo.png" alt="iSorter logo" style="width:321px;height:140px;">
-                            <h2>iSorter</h2>
-                            <p>A web app that sorts the user's Apple Music Library by genre, artist, or release year.</p>
-                            <button class="breakout-button" type="button" hidden onClick="goToiSorter()">Go to Project</button>
-                        </article>
-                        <article class="box">
-                            <img src="images/NoFluffRecipelogo.png" alt="No Fluff Recipe logo" style="width:140px;height:140px;">
-                            <h2>No Fluff Recipe</h2>
-                            <p>A chrome extension that simplifies a complex recipe website to only its recipe card.</p>
-                            <button class="breakout-button" type="button" hidden onClick="goToNoFluffRecipe()">Go to Project</button>
-                        </article>
-                        <article class="box">
-                            <img src="images/WhatAmIWatchingLogo.png" alt="WhatAmIWatching logo" style="width:160px;height:140px;">
-                            <h2>WhatAmIWatching</h2>
-                            <p>A user based web-app that keeps track of movies on to-watch and watched lists and generates recommendations per movie.</p>
-                            <button class="breakout-button" type="button" hidden onClick="goToWhatAmIWatching()">Go to Project</button>
-                        </article>
+            <div class="paragraphs">
+                <h2> Hi there, I'm Ingrid! </h2>
+                <div class="indent">
+                    <p>In my free time I like to wander around parks, try out new cafés, and practice guitar.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/ingridcrant/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/ingridcrant"><i class="fab fa-github"></i></a>
                     </div>
+                    <p>I'm studying <span class="highlight">Computer Science</span> student at the <span class="highlight">University of Waterloo</span> with a minor in <span class="highlight">Combinatorics and Optimization</span>.</p>
                 </div>
-            </section>
-            <hr class="m-0" />
+                <a class="right-align" href="resume.pdf">resume</a>
+            </div>
         </div>
-        <script>
-            function goToiSorter() {
-                window.open("https://isorter.herokuapp.com/", "_blank");
-            }
-            function goToNoFluffRecipe() {
-                window.open("https://chrome.google.com/webstore/detail/no-fluff-recipe/kjpknolonkdolcdobjpnpbhddcnfpbhh?hl=en", "_blank");
-            }
-            function goToWhatAmIWatching() {
-                window.open("https://www.whatamiwatching.xyz/", "_blank");
-            }
-        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
