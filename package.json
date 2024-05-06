@@ -4,6 +4,7 @@
   "description": "Personal portfolio site",
   "main": "index.js",
   "scripts": {
+    "open-my-html": "open-cli ./index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
